@@ -20,13 +20,13 @@ namespace ArraysAndLists
                 {
                     
                     evens.Add(numbers [num]);
-                   // Console.WriteLine(num);
+                   Console.WriteLine(num);
                 }
                 else
                 {
                     
                     odds.Add(numbers[num]);
-                   // Console.WriteLine(num);
+                   Console.WriteLine(num);
                 }
                 foreach (var number in evens)
                 {
@@ -56,7 +56,7 @@ namespace ArraysAndLists
 
 
 
-                /* Now using foeach or for loops,
+                /* Now using foreach or for loops,
                  * display each List of even and odd numbers
                  *
                  * Try to be creative in your display
