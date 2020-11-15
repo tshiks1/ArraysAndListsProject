@@ -14,19 +14,19 @@ namespace ArraysAndLists
             var odds = new List<int>();
 
           
-            for (int num = 0; num < numbers.Length; num++)
+            for (int x = 0; x < numbers.Length; x++)
             {
-                if (numbers [num] % 2 == 0)
+                if (numbers [x] % 2 == 0)
                 {
                     
-                    evens.Add(numbers [num]);
-                   Console.WriteLine(num);
+                    evens.Add(numbers [x]);
+                   Console.WriteLine(x);
                 }
                 else
                 {
                     
-                    odds.Add(numbers[num]);
-                   Console.WriteLine(num);
+                    odds.Add(numbers[x]);
+                   Console.WriteLine(x);
                 }
                 foreach (var number in evens)
                 {
